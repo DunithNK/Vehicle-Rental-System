@@ -1,0 +1,46 @@
+.bill {
+    background-color: #ecf4ce;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #000000;
+}
+.tick {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tick img {
+    height: 60px;
+}
+
+.bill h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bill i {
+    color: green;
+}
+
+.columns {
+    display: flex;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    margin-right: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create New Account</title>
+        <link rel="stylesheet" href="Styles/reg.css">
+    </head>
+
+    <body>
+        <h1 class="title">CREATE A NEW ACCOUNT</h1>
+       
+        <div>
+        <form action="regForm.php" method="POST">
+            <span><label>First Name<input type="text" name="Fname" placeholder="Kevin" required><br><br></label><br></span>
+            
+
+            <span><label>Last Name<input type="text" name="Lname" placeholder="Johnson" required><br><br></label><br></span>
+            
+
+            <span><label>User Name<input type="text" name="Username" placeholder="Kevin2023" required><br><br></label><br></span>
+            
+
+            <span><label>Password<input type="password" name="Pass" placeholder="*******" id="pass" required><br><br></label><br></span>
+            
+
+            <span><label>Re-Enter Password<input type="password" name="rePass" placeholder="*******" id="repass" required><br><br></label><br></span>
+
+            <span><label>Phone Number<input type="text" name="PhoneNumber" placeholder="0712345678" required><br><br></label><br></span>
+            
+
+            <span><label>E-Mail<input type="email" name="email" placeholder="kevin.j@gmail.com" required><br><br></label><br></span>
+            
+
+            <span><label>ID<input type="text" name="id" placeholder="12345" required><br><br></label><br></span>
+            
+            
+            <input type="hidden" name="checkbox" value="0">
+            <span id="tc"><input type="checkbox" name="checkbox" value="1" required>Accept Terms & Conditions<br><br></span>
+
+            <span id="sb"><input type="submit" value="Register" name="submitbtn" id="submitbtn" onsubmit="validateConfirmPassword()"></span>
+
+        </form>
+        </div>
+    </body>
+
+ 
+
+    <footer><h5>Copyright 2023 &copy; Car2Go. All Rights Reserved.</h5></footer>
+</html>

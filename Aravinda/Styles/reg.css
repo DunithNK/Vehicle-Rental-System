@@ -1,0 +1,65 @@
+body {
+    background-color: PALEGOLDENROD;
+}
+
+h1.title {
+    text-align: Center;
+	font-family: Product sans, bold;
+	font-size: 30px;
+	color: DARKOLIVEGREEN;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div {
+    border: 4px solid black;
+    padding: 20px;
+    font-family: Product sans, bold;
+}
+
+span {
+    display: flex;
+    flex: 0 0 100px;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+span#tc {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    margin-right: 450px;
+    margin-left: 450px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+span#sb{
+    margin-right: 550px;
+    margin-left: 550px;
+    justify-content: space-evenly;
+}
+
+
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: BEIGE;
+}
+
+#submitbtn {
+    padding: 10px;
+    background-color: OLIVE ;
+    color: white;
+    font-family: Product sans, bold;
+}
+
+#submitbtn:hover {
+    background-color: DARKOLIVEGREEN;
+}

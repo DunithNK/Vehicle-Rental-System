@@ -1,0 +1,70 @@
+body {
+    font-family: Product Sans, bold;
+    margin: 0;
+    padding: 0;
+    color: rgb(1, 1, 1);
+    background: url();
+    background-color: PALEGOLDENROD;
+}
+
+header {
+    background-color: DARKKHAKI;
+    padding: 50px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.column section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.social-media img {
+    height: 60px;
+}
+
+
+.payment-methods {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.payment-methods img {
+    height: 60px;
+}

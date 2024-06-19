@@ -1,0 +1,1 @@
+<footer><h5>Copyright <?php echo date('Y'); ?> &copy; Car2Go. All Rights Reserved.</h5></footer>

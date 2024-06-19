@@ -1,0 +1,97 @@
+body {
+    background-color: PALEGOLDENROD;
+}
+
+img.pro {
+	float: right;
+	width: 70px;
+	height: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+#nav { 
+    list-style-type: none;
+	margin: 0px;
+	padding: 15px;
+	overflow: hidden;
+	background-color: DARKKHAKI;
+	border-radius: 15px;
+}
+
+li a {
+	float: left; 
+	padding: 15px;
+	color: DARKSLATEGREY;
+	text-align:right;
+	text-decoration: none;
+    font-family: Product Sans, bold;
+}
+
+button {
+	width: 150px;
+	border-radius: 10px;
+	float: right;
+	overflow: hidden;
+}
+
+.log {
+	background-color: DARKGREY;
+	color: white;
+	margin: 10px;
+	margin-right: 5px;
+	padding: 10px;
+	font-family: Product Sans, bold;
+}
+
+.Sup {
+	background-color: DIMGREY;
+	color: white;
+	margin: 10px;
+	margin-left: 5px;
+	padding: 10px;
+	font-family: Product Sans, bold;
+}
+
+button:hover{
+	background-color: DIMGREY;;
+	box-shadow: 0px 0px 25px white;
+}
+
+h1.name {
+	text-align: Center;
+	margin-left: 350px;
+	font-family: Product sans, bold;
+	font-size: 60px;
+	color: DARKOLIVEGREEN;
+}
+
+img.logo{
+	display: block;
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-left: 100px;
+}
+
+img.front{
+	display: block;
+	margin: 0px;
+	height: 300px;
+	width: 450px;
+	padding-left: 250px;
+}
+
+h2.CP {
+	text-align: Center;
+	font-family: Product sans, bold;
+	font-size: 30px;
+	color: TEAL;
+}
+
+h3.intro{
+	text-align: Center;
+	font-family: Product sans, bold;
+	font-size: 20px;
+}
